@@ -10,6 +10,9 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            var dandelion = new Dandelion();
+            dandelion.Photosynthesize();
+            dandelion.Reproduce();
         }
     }
 }
